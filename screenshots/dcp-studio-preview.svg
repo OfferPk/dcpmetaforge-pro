@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b10" />
+      <stop offset="100%" stop-color="#12141c" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1c202d" />
+      <stop offset="100%" stop-color="#121520" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)" />
+
+  <!-- Top Navigation Bar -->
+  <rect x="0" y="0" width="1200" height="64" fill="#12141c" stroke="#2e3549" stroke-width="1" />
+  <rect x="24" y="16" width="46" height="32" rx="6" fill="url(#redGrad)" />
+  <text x="31" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="900" fill="#fff">DCP</text>
+  <text x="80" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#f8fafc">DCPMetaForge Pro</text>
+  <rect x="310" y="20" width="160" height="24" rx="4" fill="#1c202d" stroke="#3b445c" stroke-width="1" />
+  <text x="320" y="36" font-family="monospace" font-size="11" fill="#cbd5e1">SMPTE ST 429-7 CPL</text>
+  
+  <rect x="980" y="16" width="180" height="32" rx="6" fill="#10b981" />
+  <text x="1008" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">✓ 10/10 AUDIT PASS</text>
+
+  <!-- Main Content Grid -->
+  <!-- Left Panel: Package & ISDCF Config -->
+  <rect x="40" y="88" width="350" height="620" rx="10" fill="url(#cardGrad)" stroke="#2e3549" stroke-width="1" filter="url(#shadow)" />
+  <text x="60" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Package &amp; ISDCF Config</text>
+  <line x1="60" y1="136" x2="370" y2="136" stroke="#2e3549" stroke-width="1" />
+
+  <!-- Film Title -->
+  <text x="60" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">FILM TITLE (ALPHANUMERIC)</text>
+  <rect x="60" y="176" width="310" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="72" y="199" font-family="monospace" font-size="13" fill="#f1f5f9">LAST_HORIZON</text>
+
+  <!-- Content Kind -->
+  <text x="60" y="234" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">CONTENT KIND</text>
+  <rect x="60" y="244" width="310" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="72" y="267" font-family="monospace" font-size="13" fill="#f1f5f9">FTR (Theatrical Feature Film)</text>
+
+  <!-- DCI Format -->
+  <text x="60" y="302" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">DCI FORMAT &amp; ASPECT RATIO</text>
+  <rect x="60" y="312" width="310" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="72" y="335" font-family="monospace" font-size="12" fill="#f59e0b">2K Flat 1.85:1 (1998 x 1080) [F-185]</text>
+
+  <!-- Audio & Rating -->
+  <text x="60" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">AUDIO ROUTING &amp; RATING</text>
+  <rect x="60" y="380" width="150" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="72" y="403" font-family="monospace" font-size="12" fill="#cbd5e1">5.1 Surround</text>
+
+  <rect x="220" y="380" width="150" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="232" y="403" font-family="monospace" font-size="12" fill="#cbd5e1">US-PG-13</text>
+
+  <!-- Duration & Frame Rate -->
+  <text x="60" y="438" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#94a3b8">DURATION &amp; DCI FRAME RATE</text>
+  <rect x="60" y="448" width="150" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="72" y="471" font-family="monospace" font-size="12" fill="#cbd5e1">144,000 frames</text>
+
+  <rect x="220" y="448" width="150" height="36" rx="6" fill="#080a12" stroke="#3b445c" stroke-width="1" />
+  <text x="232" y="471" font-family="monospace" font-size="12" fill="#cbd5e1">24.00 fps</text>
+
+  <!-- Action Button -->
+  <rect x="60" y="520" width="310" height="44" rx="6" fill="url(#goldGrad)" />
+  <text x="105" y="547" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#000">Synthesize Package Manifests</text>
+
+  <!-- Right Panel: ISDCF Display & Package Manifest Inspector -->
+  <rect x="410" y="88" width="750" height="620" rx="10" fill="url(#cardGrad)" stroke="#2e3549" stroke-width="1" filter="url(#shadow)" />
+  
+  <!-- Tabs -->
+  <rect x="426" y="104" width="160" height="34" rx="6" fill="#f59e0b" />
+  <text x="445" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#000">ISDCF Naming v9.5</text>
+
+  <rect x="596" y="104" width="130" height="34" rx="6" fill="#1c202d" stroke="#3b445c" stroke-width="1" />
+  <text x="618" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">CPL XML</text>
+
+  <rect x="736" y="104" width="130" height="34" rx="6" fill="#1c202d" stroke="#3b445c" stroke-width="1" />
+  <text x="758" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">PKL XML</text>
+
+  <rect x="876" y="104" width="130" height="34" rx="6" fill="#1c202d" stroke="#3b445c" stroke-width="1" />
+  <text x="898" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">ASSETMAP</text>
+
+  <rect x="1016" y="104" width="130" height="34" rx="6" fill="#1c202d" stroke="#3b445c" stroke-width="1" />
+  <text x="1038" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">10-Pt Audit</text>
+
+  <!-- ISDCF Title Display Box -->
+  <rect x="430" y="155" width="710" height="70" rx="6" fill="#060810" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="446" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#94a3b8">STANDARDIZED D-CINEMA CONTENT TITLE TEXT (CONTENTTITLETEXT):</text>
+  <text x="446" y="206" font-family="monospace" font-size="14" font-weight="700" fill="#f59e0b">LAST-HORIZON_FTR_F-185_EN-XX_US-PG-13_51_2K_IND_20261010_DMF_OV</text>
+
+  <!-- Token Breakdown Chips -->
+  <rect x="430" y="240" width="105" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="440" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">TITLE</text>
+  <text x="440" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">LAST-HORIZON</text>
+
+  <rect x="545" y="240" width="95" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="555" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">KIND</text>
+  <text x="555" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">FTR</text>
+
+  <rect x="650" y="240" width="105" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="660" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">ASPECT</text>
+  <text x="660" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">F-185 (Flat)</text>
+
+  <rect x="765" y="240" width="105" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="775" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">AUDIO</text>
+  <text x="775" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">5.1 Surround</text>
+
+  <rect x="880" y="240" width="115" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="890" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">TERRITORY-RATING</text>
+  <text x="890" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">US-PG-13</text>
+
+  <rect x="1005" y="240" width="135" height="50" rx="4" fill="#111422" stroke="#2e3549" stroke-width="1" />
+  <text x="1015" y="258" font-family="sans-serif" font-size="10" fill="#94a3b8">PACKAGE</text>
+  <text x="1015" y="278" font-family="monospace" font-size="12" font-weight="700" fill="#f8fafc">OV (Original Version)</text>
+
+  <!-- Live CPL XML Code Preview Snippet -->
+  <rect x="430" y="305" width="710" height="190" rx="6" fill="#05060b" stroke="#2e3549" stroke-width="1" />
+  <text x="446" y="325" font-family="monospace" font-size="11" fill="#64748b">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</text>
+  <text x="446" y="343" font-family="monospace" font-size="11" fill="#ef4444">&lt;CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/429-7/2006/CPL"&gt;</text>
+  <text x="466" y="361" font-family="monospace" font-size="11" fill="#94a3b8">&lt;Id&gt;urn:uuid:7c9e6679-7425-40de-944b-e07fc1f90ae7&lt;/Id&gt;</text>
+  <text x="466" y="379" font-family="monospace" font-size="11" fill="#f59e0b">&lt;ContentTitleText&gt;LAST-HORIZON_FTR_F-185_EN-XX_US-PG-13_51_2K_IND_20261010_DMF_OV&lt;/ContentTitleText&gt;</text>
+  <text x="466" y="397" font-family="monospace" font-size="11" fill="#06b6d4">&lt;ReelList&gt;&lt;Reel&gt;&lt;AssetList&gt;</text>
+  <text x="486" y="415" font-family="monospace" font-size="11" fill="#cbd5e1">&lt;MainPicture&gt;&lt;EditRate&gt;24 1&lt;/EditRate&gt;&lt;Duration&gt;144000&lt;/Duration&gt;&lt;ScreenAspectRatio&gt;1.85:1&lt;/ScreenAspectRatio&gt;&lt;/MainPicture&gt;</text>
+  <text x="486" y="433" font-family="monospace" font-size="11" fill="#cbd5e1">&lt;MainSound&gt;&lt;EditRate&gt;24 1&lt;/EditRate&gt;&lt;Duration&gt;144000&lt;/Duration&gt;&lt;/MainSound&gt;</text>
+  <text x="466" y="451" font-family="monospace" font-size="11" fill="#06b6d4">&lt;/AssetList&gt;&lt;/Reel&gt;&lt;/ReelList&gt;</text>
+  <text x="446" y="469" font-family="monospace" font-size="11" fill="#ef4444">&lt;/CompositionPlaylist&gt;</text>
+
+  <!-- Live Audit Results Mini-Panel -->
+  <rect x="430" y="510" width="710" height="180" rx="6" fill="#080a12" stroke="#2e3549" stroke-width="1" />
+  <rect x="430" y="510" width="710" height="26" rx="6" fill="#121520" />
+  <text x="446" y="528" font-family="monospace" font-size="11" font-weight="700" fill="#94a3b8">SMPTE ST 429 THEATRICAL NORMATIVE AUDIT (10/10 PASS)</text>
+
+  <text x="446" y="552" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-01] XML Declaration &amp; UTF-8: Compliant XML prolog present</text>
+  <text x="446" y="570" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-02] SMPTE ST 429-7 CPL Namespace: http://www.smpte-ra.org/schemas/429-7/2006/CPL</text>
+  <text x="446" y="588" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-03] RFC 4122 UUID: urn:uuid:7c9e6679-7425-40de-944b-e07fc1f90ae7 valid</text>
+  <text x="446" y="606" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-04] ISDCF Digital Cinema Naming: Conforms to ISDCF v9.5 naming structure</text>
+  <text x="446" y="624" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-05] Track Duration Synchronization: Picture and Sound aligned at 144,000 frames</text>
+  <text x="446" y="642" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-06] Aspect Ratio Conformance: ScreenAspectRatio 1.85:1 conforms to DCI Flat</text>
+  <text x="446" y="660" font-family="monospace" font-size="11" fill="#10b981">✓ [DCP-07] Manifest Hierarchy: PKL.xml SHA-1 hashes and ASSETMAP chunk paths aligned</text>
+</svg>
